@@ -1,0 +1,64 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #262626;
+}
+.center
+{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #333;
+    box-sizing: border-box;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+h1
+{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.skillbar
+{
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 100%;
+    margin: 20px 0;
+}
+.skillbar p
+{
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 0;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.skillbar p:nth-child(2)
+{
+    float: right;
+    position: relative;
+    top: -30px;
+}
+.skill_percentage
+{
+    background: #262626;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.skill_level
+{
+    background: #0084ff;
+    width: 85%;
+    height: 10px;
+    border-radius: 6px;
+}
